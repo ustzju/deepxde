@@ -7,6 +7,7 @@ Problem setup
 We will solve an inverse problem for the diffusion equation with an unknown parameter :math:`C`:
 
 .. math:: \frac{\partial y}{\partial t} = C\frac{\partial^2y}{\partial x^2} - e^{-t}(\sin(\pi x) - \pi^2\sin(\pi x)),   \qquad x \in [-1, 1], \quad t \in [0, 1]
+.. math:: \frac{\partial y}{\partial t} = \gamma \frac{1+\pi/2\cos(\pi/2 x)
 
 with the initial condition
 
